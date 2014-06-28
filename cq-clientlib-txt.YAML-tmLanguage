@@ -1,0 +1,15 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: CQ Clientlib txt
+scopeName: text.txt.cq-clientlib
+fileTypes: [txt]
+uuid: e1d7a17d-3d1b-42fa-8b47-7b08c012aeae
+
+patterns:
+- match: "##.*"
+  name: "comment.line.number-sign"
+- match: "#.*"
+  name: "keyword.control"
+- match: "[^#]*"
+  name: "string.unquoted"
+...
