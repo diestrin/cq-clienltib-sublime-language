@@ -4,7 +4,8 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>txt</string>
+		<string>js.txt</string>
+		<string>css.txt</string>
 	</array>
 	<key>name</key>
 	<string>CQ Clientlib txt</string>
